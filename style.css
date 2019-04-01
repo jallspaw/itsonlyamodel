@@ -33,13 +33,13 @@ h3 {
 /*----Links---------------------------------------------------- */
 
 a {
-    text-decoration: none;
-    color: black;
+    color: #954f72; 
+    text-decoration-line: underline;
 }
 
 a:visited {
-    text-decoration: none;
-    color: black;
+    text-decoration: underline;
+    color: blue;
 }
 
 a:hover {
