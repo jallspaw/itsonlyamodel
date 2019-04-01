@@ -1,0 +1,84 @@
+/*----Body------------------------------------------------------ */
+
+body {
+    margin: 0;
+    width:100%;
+    text-align:center;
+    background-color: #F5F5F5;
+    padding-bottom:100px;
+}
+
+/*----Typography------------------------------------------------ */
+
+
+h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 250px;
+    line-height:110px;
+    text-shadow: 1px 1px 2px gray;
+}
+
+h2 {
+    font-size: 30px;
+    line-height:26px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: normal;
+    line-height:18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*----Links---------------------------------------------------- */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visted {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #275F9C;
+}
+
+/*----Primary-------------------------------------------------- */
+
+#main {
+    clear: both;
+    width: 860px;
+    margin: 0 auto;
+}
+
+/*----Footer--------------------------------------------------- */
+
+#footer {
+    position: absolute;
+    width:100%;
+    bottom: 0;
+    height: 200px;
+    padding-top:15px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #999999;
+    background: #E2E3DA;
+}
+
+#footer a {
+    color: #275F9C;
+}
+
+#footer a:visted {
+    color: #275F9C;
+}
+
+#footer a:hover {
+    color: #275F9C;
+    text-decoration:underline;
+}
+
